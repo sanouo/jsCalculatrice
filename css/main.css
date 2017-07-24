@@ -87,10 +87,31 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.tout
+{
+  text-align: center;
+  margin-top: 9em;
+}
 
+.form-control
+{
+  width: 40%;
+  height: 30px;
+}
 
+.btn
+{
+  width: 10%;
+  height: 40px;
+  color: black;
+}
 
-
+header h1
+{
+  margin-left: 6%;
+  font-family: 'Bungee', cursive;
+  color: darkgrey;
+}
 
 
 
