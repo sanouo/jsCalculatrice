@@ -31,42 +31,42 @@
 
 
         <div class="input">
-          <input class="form-control form-control-lg" type="text">
+          <input id="affiche" class="form-control form-control-lg" type="text" disabled="disabled">
         </div>
 
         <div class="btn-group" role="group" aria-label="Basic example">
-         <button type="button" class="btn btn-secondary">(</button>
-         <button type="button" class="btn btn-secondary">)</button>
-         <button type="button" class="btn btn-secondary">%</button>
-         <button type="button" class="btn btn-secondary">AC</button>
+         <button type="button" value="(" id="parentheseg" onclick="parentheseg();" class="btn btn-secondary">(</button>
+         <button type="button" value=")" id="parenthesed" onclick="parenthesed();" class="btn btn-secondary">)</button>
+         <button type="button" value="%" id="pourcent" onclick="pourcent();" class="btn btn-secondary">%</button>
+         <button type="button" value="AC" id="ac" onclick="supprime();" class="btn btn-secondary">AC</button>
         </div>
 
         <div class="btn-group" role="group" aria-label="Basic example">
-         <button type="button" class="btn btn-secondary">7</button>
-         <button type="button" class="btn btn-secondary">8</button>
-         <button type="button" class="btn btn-secondary">9</button>
-         <button type="button" class="btn btn-secondary">/</button>
+         <button type="button" value="7" id="sept" onclick="sept();" class="btn btn-secondary">7</button>
+         <button type="button" value="8" id="huit" onclick="huit();" class="btn btn-secondary">8</button>
+         <button type="button" value="9" id="neuf" onclick="neuf();" class="btn btn-secondary">9</button>
+         <button type="button" value="/" id="diviser" onclick="diviser();" class="btn btn-secondary">/</button>
         </div>
 
         <div class="btn-group" role="group" aria-label="Basic example">
-         <button type="button" class="btn btn-secondary">4</button>
-         <button type="button" class="btn btn-secondary">5</button>
-         <button type="button" class="btn btn-secondary">6</button>
-         <button type="button" class="btn btn-secondary">*</button>
+         <button type="button" value="4" id="quatre" onclick="quatre();" class="btn btn-secondary">4</button>
+         <button type="button" value="5" id="cinq" onclick="cinq();" class="btn btn-secondary">5</button>
+         <button type="button" value="6" id="six" onclick="six();" class="btn btn-secondary">6</button>
+         <button type="button" value="*" id="multiplier" onclick="multiplier();" class="btn btn-secondary">*</button>
         </div>
 
         <div class="btn-group" role="group" aria-label="Basic example">
-         <button type="button" class="btn btn-secondary">1</button>
-         <button type="button" class="btn btn-secondary">2</button>
-         <button type="button" class="btn btn-secondary">3</button>
-         <button type="button" class="btn btn-secondary">-</button>
+         <button type="button" value="1" id="un" onclick="un();" class="btn btn-secondary">1</button>
+         <button type="button" value="2" id="deux" onclick="deux();" class="btn btn-secondary">2</button>
+         <button type="button" value="3" id="trois" onclick="trois();" class="btn btn-secondary">3</button>
+         <button type="button" value="-" id="moins" onclick="moins();" class="btn btn-secondary">-</button>
         </div>
 
         <div class="btn-group" role="group" aria-label="Basic example">
-         <button type="button" class="btn btn-secondary">0</button>
-         <button type="button" class="btn btn-secondary">.</button>
-         <button type="button" class="btn btn-secondary">=</button>
-         <button type="button" class="btn btn-secondary">+</button>
+         <button type="button" value="0" id="zero" onclick="zero();" class="btn btn-secondary">0</button>
+         <button type="button" value="." id="point" onclick="point();" class="btn btn-secondary">.</button>
+         <button type="button" value="=" id="egal" onclick="egal();" class="btn btn-secondary">=</button>
+         <button type="button" value="+" id="plus" onclick="plus();" class="btn btn-secondary">+</button>
         </div>
 
 
